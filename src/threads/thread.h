@@ -107,7 +107,7 @@ struct thread
    /*+ for files */
    int fd;
    struct list file_list;
-   uint32_t *pagedir;
+
    /* Owned by thread.c. */
    unsigned magic; /* Detects stack overflow. */
 };
